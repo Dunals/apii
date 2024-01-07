@@ -1,1 +1,386 @@
 
+<html lang="en-US">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+ html, body {
+    margin: 0;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: .5px;
+    line-height: 2;
+    background: #f7f8fa;}
+  }
+
+   h2, h3, h4, h5, h6 {
+    font-family: "Droid Sans", sans-serif;
+    font-weight: 500;
+    clear: both;
+    color: #666666;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 1.4;
+    margin: 0.2em auto;
+    border-bottom: 1px solid #ddd; padding-bottom: .5em;
+  }
+
+  h2 {
+    border-bottom: 3px solid #CFB997;
+  }
+
+  .left-box-cont h2 {
+    border: none;
+  }
+
+  .left-box-cont h1, .left-box-cont h2, .left-box-cont h3, .left-box-cont h4 {
+    font-weight: 600;
+  }
+
+  .left-box-cont {
+    font-weight: 300;
+    font-size: 16px;
+    color: #666666;
+    font-family: "Droid Sans", sans-serif;
+  }
+
+  p, li, strong {
+    font-weight: 300;
+    font-size: 16px;
+    color: #666666;
+    font-family: "Droid Sans", sans-serif;
+  }
+
+  li {
+    margin-left: 1em;
+  }
+
+  a {
+    text-decoration: none;
+    margin: 0;
+    color: #666666;
+  }
+
+  .tags a {
+    color: #fff;
+  }
+
+  img {
+    width: 100%;
+  }
+
+ table {float: left;color: #333;}tr:last-child {border-bottom: 1px solid #fff;}td,th {padding: 10px 8px;text-align: left;}th {font-weight: 400;}td {border-bottom: 1px solid #e5e8e8;font-weight: 300;}
+
+  .banner {
+    font-size: 23px;
+    color: #fff;
+    font-weight: 500;
+    background:  #333333;
+    height: 60px;
+    margin: 0 0 0 0;
+    top: 0;
+    z-index: 1;
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+  }
+
+  .footer {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 300;
+    background:  #333333;
+    height: 60px;
+    border-top: 0px solid red;
+    margin: 2em 0 0 0;
+  }
+
+  .content {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .left-box {
+    float: left;
+    width: calc(100% - 330px);
+    margin: 0 30px 0 0;
+  }
+.right-box {float: left;width: 300px;margin: 0 0;background-color: #eaedf2;border-radius: 6px;}
+.right-box p{text-align: center;}
+ .tgn2cr{border-bottom: 1px solid #ddd; padding-bottom: .5em;font-size: 16px;} 
+  .post-card {
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #CFB997;
+  }
+
+  .card-title {
+    font-family: "Public Sans", sans-serif;
+    font-size: 22px;
+    line-height: 1.4;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0.2em auto;
+  }
+
+  .logo {
+    display: inline-block;
+    cursor: pointer;
+    float: left;
+  }
+
+  .wrp {
+    margin: 3em 0;
+  }
+
+  .tags {
+    font-size: 15px;
+    background:  #666666;
+    padding: 5px 15px;
+    margin: 4px 3px;
+    display: inline-block;
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+  }
+
+  .copy-txt {
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .click_4, .navs {
+    display: none;
+  }
+
+  .javgs {
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+  }
+
+  .clik {
+    display: none;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    margin: 0 0;
+    cursor: pointer;
+  }
+
+  .hom {
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0 0 0 20px;
+  }
+
+  .hom a {
+    color: #fff;
+  }
+
+  .javgs a {
+    color: #fff;
+  }
+
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    height: 60px;
+    width: 100%;-
+  }
+
+  .logo-box {
+    float: left;
+  }
+
+  .menu-box {
+    float: right;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  @media screen and (max-width: 960px) {
+    .content {
+      width: 92%;
+    }
+
+    .left-box, .right-box {
+      margin: 1em auto;
+      width: 96%;
+    }
+
+    h1, .card-title {
+      font-size: 30px;
+    }
+
+    .navs {
+      display: block;
+      width: 100%;
+      padding: 0 0;
+      margin-top: 0;
+      background-color: #CFB997;
+      margin-bottom: -4em;
+      border-top: 1px solid #fff;
+    }
+
+    .clik {
+      display: block;
+    }
+
+    .hom {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 768px) {table {width: 94%;margin-left: auto !important;margin-right: auto !important;float: none;font-size: 16px;}tr:last-child {border-bottom: 1px solid #e5e8e8;}
+  .related-articles {margin-top: 30px;padding: 20px;background-color: #f9f9f9;border: 1px solid #ddd;border-radius: 5px;}.related-article {margin-bottom: 20px;padding: 10px;border-bottom: 1px solid #cfb997;}.related-article h3 {font-size: 18px;margin-bottom: 10px;}.related-article p {color: #666;margin-bottom: 10px;}
+</style>
+<title>this is 8 | UsaZip</title>
+<meta name="description" content="this is 8" />
+<meta name="google-adsense-account" content="ca-pub-6126426919387219" />
+
+<link rel="canonical" href="https://usazip.site/this-is-8.html" />
+<link rel="alternate" href="https://usazip.site/this-is-8.html" hreflang="en" />
+<link rel="alternate" href="https://usazip.site/this-is-8.html" hreflang="x-default" />
+
+<meta property="og:site_name" content="UsaZip" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://usazip.site/this-is-8.html" />
+<meta property="og:title" content="this is 8 | UsaZip" />
+<meta property="og:description" content="this is 8" />  
+<meta property="og:image" content="https://usazip.site/thumb/269838854297412.png" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:type" content="image/png" />
+
+<link rel="shortcut icon" href="thumb/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="thumb/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="thumb/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="thumb/apple-touch-icon-72x72.png" />
+<link rel="apple-touch-icon" sizes="76x76" href="thumb/apple-touch-icon-76x76.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="thumb/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="thumb/apple-touch-icon-120x120.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="thumb/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="thumb/apple-touch-icon-152x152.png" />
+<link rel="apple-touch-icon" sizes="180x180" href="thumb/apple-touch-icon-180x180.png" />
+<script type="text/javascript">var head = document.getElementsByTagName("HEAD")[0]; var link = document.createElement("link"); link.rel = "stylesheet"; link.type = "text/css";link.href = "style-014.css"; head.appendChild(link);</script>
+<script>
+  function yljgkg() { var x = document.getElementById("click_3"); if (x.className === "click_4") { x.className += " navs"; } else { x.className = "click_4"; }}
+</script>
+</head>
+<body>
+<div class="banner">
+<div class="content">
+<div class="logo-box">
+<div class="table-cell">
+<div class="logo">&#10048; USAZIP</div>
+</div>
+</div>
+<div class="menu-box">
+<div class="table-cell">
+<div class="hom"><a title="Home  | UsaZip" href="/">Home</a></div>
+<div class="hom"><a title="About | UsaZip" href="doc/about/">About</a></div>
+<div class="hom"><a title="Contact Us | UsaZip" href="doc/contact/">Contact Us</a></div>
+<div class="clik" onclick="yljgkg()">&#9776;</div>
+</div>
+</div>
+</div>
+</div>
+<div class="click_4" id="click_3">
+<div class="javgs"><div class="content"><a title="Home  | UsaZip" href="/">Home</a></div></div>
+<div class="javgs"><div class="content"><a title="About | UsaZip" href="doc/about/">About</a></div></div>
+<div class="javgs"><div class="content"><a title="Privacy Policy  | UsaZip" href="doc/privacy-policy/">Privacy Policy</a></div></div>
+<div class="javgs"><div class="content"><a title="Terms and Conditions  | UsaZip" href="doc/terms-and-conditions/">Terms and Conditions</a></div></div>
+<div class="javgs"><div class="content"><a title="Contact Us | UsaZip" href="doc/contact/">Contact Us</a></div></div>
+</div>
+<div class="content">
+<div class="wrp">
+<div class="clear"></div>
+<div class="left-box">
+<div class="left-box-cont">
+<p class="tgn2cr"><a href="https://usazip.site">Home</a> &#8250; this is 8 </p> 
+<h1>Are you [Curious About Power Waxers]? This article is your</h1>
+<div class="clear"></div>
+<div class="top-banner">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6126426919387219"
+     crossorigin="anonymous"></script>
+<!-- usazip -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6126426919387219"
+     data-ad-slot="3964674433"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div class="clear"></div>
+<table>
+    <tr><td class="highlight">Brand : </td><td>Alfa</td></tr>
+    <tr><td class="highlight">Model : </td><td>Romeo</td></tr>
+    <tr><td class="highlight">Year : </td><td>2006</td></tr>
+    <tr><td class="highlight">Transmission : </td><td>Manual</td></tr>
+    <tr><td class="highlight">Engine : </td><td>4 cyl, 2 L</td></tr>
+    <tr><td class="highlight">Drive Type : </td><td>Front</td></tr>
+    <tr><td class="highlight">Fuel type : </td><td>Premium</td></tr>
+    <tr><td class="highlight">Fuel consumption : </td><td>9.5 L / 100 km</td></tr>
+    <tr><td class="highlight">Body type : </td><td>Sedan</td></tr>    
+    <tr><td class="highlight">Seats : </td><td> 5 Seats</td></tr>    
+    <tr><td class="highlight">Doors : </td><td> 4 Doors</td></tr>    
+</table>
+<div class="clear"></div>
+</div>
+<div class="top-banner">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6126426919387219"
+     crossorigin="anonymous"></script>
+<!-- usazip -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6126426919387219"
+     data-ad-slot="3964674433"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+<div class="right-box">
+<p>Advertisement</p>
+<div class="clear"></div>
+<div class="right-banner">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6126426919387219"
+     crossorigin="anonymous"></script>
+<!-- usazip -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-6126426919387219"
+     data-ad-slot="3964674433"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+</div>
+<div class="clear"></div>
+<div class="footer"><div class="content"><div class="copy-txt">&copy; 2024 UsaZip, Inc. All Rights Reserved.</div></div></div>
+</body>
+</html>

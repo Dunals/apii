@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -5,170 +6,47 @@
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<style type="text/css">
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');* {margin: 0px;box-sizing: border-box;font-family: "Ubuntu", sans-serif;;}a{text-decoration: none;color: #000000}
-.navbar {
-  width: 100%;
-  padding-left: 20px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  background-color: #0b324b;
-  justify-content: space-around;
-  position: sticky;
-  top: 0;
-  z-index: 1000; /* Ensure navbar is above other content */
-}
-
-.nav-title span a {color: #fff;font-size: 1.5rem;}.hamburgerMenu {display: none;}
-.links {font-size: 18px;}.links a {color: #fff;text-decoration: none;padding: 13px 10px 13px 10px;}.links a:hover {background-color: #0b324b;}
-#hamburger {display: none;}@media (max-width:600px) {.navbar {justify-content: space-between;}.hamburgerMenu {display: block;margin-right: 20px;}.hamburgerMenu label {display: inline-block;cursor: pointer;padding: 13px;height: 50px;width: 50px;}.hamburgerMenu label:hover,.navbar #hamburger:checked~.hamburgerMenu>label {background-color: #0b324b;}.hamburgerMenu label div { border-top: 2px solid #fff; display: block; height: 10px; width: 25px;}.links {border-top: 1px solid #0b324b;background-color: #0b324b;transition: all 0.3s;overflow-y: hidden;position: absolute;display: block;width: 100%;height: 0px;top: 50px;left: 0px;}.links a {display: block;width: 100%;}#hamburger:not(:checked)~.links {height: 0px;}#hamburger:checked~.links {height: calc(100vh - 50px);}}
-.ads{margin-top: 10px; text-align: center;}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px; 
-}
-
-
-h1{font-size: 50px;}
-.ptag{margin-top: 25px; margin-bottom: 20px;font-size: 18px;}
-.grid-container {
-  display: grid;
-  gap: 20px;
-}
-
-.grid-item {
-  background-color: #f4f5f8;
-  padding: 20px;
-  border-radius: 5px;
-}
-
-.grid-item p {
-  margin: 5px 0;
-}
-.grid-item a:hover .hov {
-    color: blue;
-}
-
-.down{margin-bottom: 20px;}
-@media (min-width: 600px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.footer {
-  background-color: #0b324b;
-  color: #fff;
-  text-align: center;
-}
-
-.footer p {
-  margin-top: 15px;
-}
-
-.footer-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-
-.footer-nav a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 600px) {
-    .container {
-        width: 95%; 
-    }
-    h1{
-        font-size: 27px;
-    }
-    p{font-size: 15px;}
-}
-@media (max-width: 360px) {
-
-    h1{
-        font-size: 20px;
-    }
-}
-
-#scrollToTopBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  z-index: 1000;
-  background-color: #0b324b;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-#scrollToTopBtn:hover {
-  background-color: #555;
-}
-
-
-</style>
+<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');* {margin: 0px;box-sizing: border-box;font-family: "Ubuntu", sans-serif;;}a{text-decoration: none;color: #000000}.navbar {width: 100%;padding-left: 20px;height: 60px;display: flex;align-items: center;background-color: #0b324b;justify-content: space-around;position: sticky;top: 0;z-index: 1000; }.nav-title span a {color: #fff;font-size: 1.5rem;}.hamburgerMenu {display: none;}.links {font-size: 18px;}.links a {color: #fff;text-decoration: none;padding: 13px 10px 13px 10px;}.links a:hover {background-color: #0b324b;}#hamburger {display: none;}@media (max-width:600px) {.navbar {justify-content: space-between;}.hamburgerMenu {display: block;margin-right: 20px;}.hamburgerMenu label {display: inline-block;cursor: pointer;padding: 13px;height: 50px;width: 50px;}.hamburgerMenu label:hover,.navbar #hamburger:checked~.hamburgerMenu>label {background-color: #0b324b;}.hamburgerMenu label div { border-top: 2px solid #fff; display: block; height: 10px; width: 25px;}.links {border-top: 1px solid #0b324b;background-color: #0b324b;transition: all 0.3s;overflow-y: hidden;position: absolute;display: block;width: 100%;height: 0px;top: 50px;left: 0px;}.links a {display: block;width: 100%;}#hamburger:not(:checked)~.links {height: 0px;}#hamburger:checked~.links {height: calc(100vh - 50px);}}.container {width: 80%;margin: 0 auto;padding: 20px; }h1{font-size: 50px;margin-top: 30px;color: #0b324b;}.ptag{margin-top: 25px; margin-bottom: 20px;font-size: 18px;}.grid-container {display: grid;gap: 20px;}.grid-item {background-color: #f4f5f8;padding: 20px;border-radius: 5px;}.grid-item p {margin: 5px 0;}.grid-item a:hover .hov {color: blue;}.down{margin-bottom: 20px; margin-top: 10px;}@media (min-width: 600px) {.grid-container {grid-template-columns: repeat(2, 1fr);}}.footer {background-color: #0b324b;color: #fff;text-align: center;}.footer p {margin-top: 15px;}.footer-nav a {color: #fff;text-decoration: none;}.footer-nav a:hover {text-decoration: underline;}@media (max-width: 600px) {.container {width: 95%; }h1{font-size: 27px;}p{font-size: 15px;}}@media (max-width: 360px) {h1{font-size: 20px;}}#scrollToTopBtn {display: none;position: fixed;bottom: 20px;right: 20px;z-index: 1000;background-color: #0b324b;color: #fff;border: none;border-radius: 50%;width: 40px;height: 40px;font-size: 20px;cursor: pointer;}#scrollToTopBtn:hover {background-color: #555;}.btn button{background-color: #0b324b; color: white; padding: 10px 20px; border: none; border-radius: 3px;margin-top: 10px;margin-bottom: 20px;cursor: pointer;}.btn{text-align: center;}</style>
 <title>DogTrainingUsa | Find Dog Training Services</title>
 <meta name="description" content="Find the best dog training services in the USA with DogTrainingUSA. Expert guidance for a well behaved and happy canine friend awaits" />
-<meta name="google-site-verification" content="" /><!-- add code here -->
-<meta name="google-adsense-account" content="ca-pub-8633098244639104" />
-
-<link rel="canonical" href="https://domain.com/" />
-<link rel="alternate" href="https://domain.com/" hreflang="en" />
-<link rel="alternate" href="https:/domain.com/" hreflang="x-default" />  
-<link rel="sitemap" href="https://domain.com/sitemap.xml" title="Sitemap Index" type="application/rss+xml"/>
-<link rel="sitemap" href="https://domain.com/index-sitemap.xml" title="Index Sitemap" type="application/rss+xml"/>
-
+<meta name="google-site-verification" content="BRmOX-iqetsUKcHFmLc7Do1Rf8iFaj_BeFbNq0WXiOQ" />
+<link rel="canonical" href="https://dogtrainingusa.click/" />
+<link rel="alternate" href="https://dogtrainingusa.click/" hreflang="en" />
+<link rel="alternate" href="https:/dogtrainingusa.click/" hreflang="x-default" />  
+<link rel="sitemap" href="https://dogtrainingusa.click/sitemap.xml" title="Sitemap Index" type="application/rss+xml"/>
+<link rel="sitemap" href="https://dogtrainingusa.click/index-sitemap.xml" title="Index Sitemap" type="application/rss+xml"/>
 <meta property="og:site_name" content="DogTrainingUsa" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://domain.com/" />
+<meta property="og:url" content="https://dogtrainingusa.click/" />
 <meta property="og:title" content="DogTrainingUsa | Find Dog Training Services" />
 <meta property="og:description" content="Find the best dog training services in the USA with DogTrainingUSA. Expert guidance for a well behaved and happy canine friend awaits" />
-<meta property="og:image" content="https://domain.com/thumb.png" />
+<meta property="og:image" content="https://dogtrainingusa.click/thumb.png" />
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:image:type" content="image/png" />
-
-<link rel="shortcut icon" href="https://domain.com/uploads/favicon.ico" type="image/x-icon" />
-<link rel="apple-touch-icon" href="https://domain.com/uploads/apple-touch-icon.png" />
-<link rel="apple-touch-icon" sizes="57x57" href="https://domain.com/uploads/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="https://domain.com/uploads/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="https://domain.com/uploads/uploads/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="https://domain.com/uploads/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="https://domain.com/uploads/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="https://domain.com/uploads/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="https://domain.com/uploads/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="https://domain.com/uploads/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="https://domain.com/uploads/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="https://domain.com/uploads/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://domain.com/uploads/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="https://domain.com/uploads/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://domain.com/uploads/favicon-16x16.png">
+<link rel="shortcut icon" href="https://dogtrainingusa.click/uploads/favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" href="https://dogtrainingusa.click/uploads/apple-touch-icon.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="https://dogtrainingusa.click/uploads/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://dogtrainingusa.click/uploads/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://dogtrainingusa.click/uploads/uploads/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://dogtrainingusa.click/uploads/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://dogtrainingusa.click/uploads/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://dogtrainingusa.click/uploads/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://dogtrainingusa.click/uploads/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://dogtrainingusa.click/uploads/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://dogtrainingusa.click/uploads/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="https://dogtrainingusa.click/uploads/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://dogtrainingusa.click/uploads/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="https://dogtrainingusa.click/uploads/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://dogtrainingusa.click/uploads/favicon-16x16.png">
 <meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="https://domain.com/uploads//ms-icon-144x144.png">
+<meta name="msapplication-TileImage" content="https://dogtrainingusa.click/uploads//ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8633098244639104" crossorigin="anonymous"></script>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SN1C5J55ZP"></script><script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-SN1C5J55ZP');
-</script>
 </head>
 <body>
 <button onclick="scrollToTop()" id="scrollToTopBtn" title="Go to top">↑</button>
-
 <nav class="navbar">
 <input type="checkbox" id="hamburger">
 <div>
@@ -184,131 +62,31 @@ h1{font-size: 50px;}
   </label>
 </div>
    <div class="links">
-       <a href="">Home</a>
-       <a href="service">About</a>
-       <a href="about">Contact</a>
+       <a href="https://dogtrainingusa.click/">Home</a>
+       <a href="https://dogtrainingusa.click/about.html">About</a>
+       <a href="https://dogtrainingusa.click/contact.html">Contact</a>
    </div>
 </nav>
-<div class="ads">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8633098244639104"
-     crossorigin="anonymous"></script>
-<!-- usahospitals -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8633098244639104"
-     data-ad-slot="9151738694"
-     data-ad-format="auto"
-     data-full-width-responsive="true"
-     loading="lazy"></ins>
-     
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</div>
 <div class="container">   
 <h1>Find Dog Training Services</h1>
 <p  class="ptag">Welcome to DogTrainingUSA! On this site, you can discover dog training services, their contact numbers, and locations easily. Whether you need obedience training or behavior correction, we've got you covered. Start your journey to a well-trained pup today!</p>
 <p class="ptag">At DogTrainingUSA, our goal is to make finding dog training services as simple as possible. We've curated a comprehensive directory of trainers across the USA, so you can easily find one near you. Whether you're a new dog owner or have had your furry friend for years, our site provides all the information you need to ensure your dog receives the best training possible. Start exploring now and give your pup the training they deserve!</p>
-<div class="ads">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8633098244639104"
-     crossorigin="anonymous"></script>
-<!-- usahospitals -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8633098244639104"
-     data-ad-slot="9151738694"
-     data-ad-format="auto"
-     data-full-width-responsive="true"
-     loading="lazy"></ins>
-     
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</div>
 <h2 class="down">Find Dog Training Services Near Me</h2>
-
-
 <div class="grid-container">
-
-  <div class="grid-item">
-    <a href="1.html">
-    <p class="hov" title="Happy Paws Dog Training"> Happy Paws Dog Training</p>
-    <p><span style="color: #0b324b; font-weight: 500;"> (123) 456-7890</span></p>
-    <p> 123 Main Street, Anytown, USA</p>
-
-  </a>
-  </div>
-  
-  <div class="grid-item">
-    <p> Happy Paws Dog Training</p>
-    <p><span style="color: #0b324b; font-weight: 500;"> (123) 456-7890</span></p>
-    <p> 123 Main Street, Anytown, USA</p>
-  </div>
-  <div class="grid-item">
-    <p> Happy Paws Dog Training</p>
-    <p><span style="color: #0b324b; font-weight: 500;"> (123) 456-7890</span></p>
-    <p> 123 Main Street, Anytown, USA</p>
-  </div>
-  <div class="grid-item">
-    <p> Happy Paws Dog Training</p>
-    <p><span style="color: #0b324b; font-weight: 500;"> (123) 456-7890</span></p>
-    <p> 123 Main Street, Anytown, USA</p>
-  </div>
+<div class="grid-item"><a href="https://dogtrainingusa.click/en/off-the-leash-2243.html"><p class="hov" title="Off The Leash | DogTrainingUsa">Off The Leash</p><p><span style="color: #0b324b; font-weight: 500;">(678) 849-3275</span></p><p>20 Tower Way Ste 1006 Newnan, GA 30265</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/blue-ribbon-pet-services-2242.html"><p class="hov" title="Blue Ribbon Pet Services | DogTrainingUsa">Blue Ribbon Pet Services</p><p><span style="color: #0b324b; font-weight: 500;">(770) 601-9557</span></p><p>3264 Holly Stand Ct Loganville, GA 30052</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/blue-ribbon-pet-grooming-2241.html"><p class="hov" title="Blue Ribbon Pet Grooming | DogTrainingUsa">Blue Ribbon Pet Grooming</p><p><span style="color: #0b324b; font-weight: 500;">(770) 417-8598</span></p><p>4611 Lawrenceville Rd Loganville, GA 30052</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-brightside-dog-training-and-boarding-2240.html"><p class="hov" title="The Brightside Dog Training and Boarding | DogTrainingUsa">The Brightside Dog Training and Boarding</p><p><span style="color: #0b324b; font-weight: 500;">(770) 685-1989</span></p><p>2032 Jones Phillips Rd Dacula, GA 30019</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/good-dog-happy-owner-dog-training-llc-2239.html"><p class="hov" title="Good Dog Happy Owner Dog Training, LLC | DogTrainingUsa">Good Dog Happy Owner Dog Training, LLC</p><p><span style="color: #0b324b; font-weight: 500;">(470) 615-2215</span></p><p>1 The Meadow Drive Newnan, GA 30265</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dog-training-in-your-home-inc-2238.html"><p class="hov" title="Dog Training in Your Home Inc | DogTrainingUsa">Dog Training in Your Home Inc</p><p><span style="color: #0b324b; font-weight: 500;">(404) 501-0002</span></p><p>1020 Stallings Rd Senoia, GA 30276</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/every-dog-training-2237.html"><p class="hov" title="Every Dog Training | DogTrainingUsa">Every Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 722-8159</span></p><p>1010 Pebble Creek Trl Suwanee, GA 30024</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/carolyn-ross-2236.html"><p class="hov" title="Carolyn Ross | DogTrainingUsa">Carolyn Ross</p><p><span style="color: #0b324b; font-weight: 500;">(470) 448-4992</span></p><p>612 Amanda Leigh Ct Loganville, GA 30052</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/twelve-paws-canine-academy-2235.html"><p class="hov" title="Twelve Paws Canine Academy | DogTrainingUsa">Twelve Paws Canine Academy</p><p><span style="color: #0b324b; font-weight: 500;">(770) 237-0066</span></p><p>160 Stanley Ct Lawrenceville, GA 30046</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/canine-assistants-2234.html"><p class="hov" title="Canine Assistants | DogTrainingUsa">Canine Assistants</p><p><span style="color: #0b324b; font-weight: 500;">(770) 664-7178</span></p><p>3160 Francis Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/georgia-k9-solutions-2233.html"><p class="hov" title="Georgia K9 Solutions | DogTrainingUsa">Georgia K9 Solutions</p><p><span style="color: #0b324b; font-weight: 500;">(470) 848-1300</span></p><p>310 Magnolia Springs Trce Canton, GA 30115</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-educated-puppy-2232.html"><p class="hov" title="The Educated Puppy | DogTrainingUsa">The Educated Puppy</p><p><span style="color: #0b324b; font-weight: 500;">(770) 475-3049</span></p><p>715 Union Hill Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/countryside-pet-estates-2231.html"><p class="hov" title="Countryside Pet Estates | DogTrainingUsa">Countryside Pet Estates</p><p><span style="color: #0b324b; font-weight: 500;">(770) 864-1020</span></p><p>2540 Hopewell Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bark-busters-home-dog-training-2230.html"><p class="hov" title="Bark Busters Home Dog Training | DogTrainingUsa">Bark Busters Home Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(678) 571-8133</span></p><p>3219 Arborwoods Dr Alpharetta, GA 30022</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/wolfbrook-dog-club-park-2229.html"><p class="hov" title="Wolfbrook Dog Club & Park | DogTrainingUsa">Wolfbrook Dog Club & Park</p><p><span style="color: #0b324b; font-weight: 500;">(770) 772-0440</span></p><p>13665 New Providence Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/cuddle-and-play-pet-care-services-2228.html"><p class="hov" title="Cuddle and Play Pet Care Services | DogTrainingUsa">Cuddle and Play Pet Care Services</p><p><span style="color: #0b324b; font-weight: 500;">(678) 462-4971</span></p><p>PO Box 1452 Kennesaw, GA 30156</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/us-canine-2227.html"><p class="hov" title="US Canine | DogTrainingUsa">US Canine</p><p><span style="color: #0b324b; font-weight: 500;">(770) 682-5434</span></p><p>305 W Oak St Lawrenceville, GA 30046</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/atlanta-dog-trainer-2226.html"><p class="hov" title="Atlanta Dog Trainer | DogTrainingUsa">Atlanta Dog Trainer</p><p><span style="color: #0b324b; font-weight: 500;">(770) 754-9178</span></p><p>12460 Crabapple Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/canine-connections-2225.html"><p class="hov" title="Canine Connections | DogTrainingUsa">Canine Connections</p><p><span style="color: #0b324b; font-weight: 500;">(770) 772-6380</span></p><p>10945 State Bridge Rd Alpharetta, GA 30022</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/good-rascal-dog-training-2224.html"><p class="hov" title="Good Rascal Dog Training | DogTrainingUsa">Good Rascal Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 401-7945</span></p><p>PO Box 1146 Kennesaw, GA 30156</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/k-9-companion-2223.html"><p class="hov" title="K 9 Companion | DogTrainingUsa">K 9 Companion</p><p><span style="color: #0b324b; font-weight: 500;">(770) 469-9442</span></p><p>4312 Vineyard Trl Snellville, GA 30039</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/atlanta-obedience-club-2222.html"><p class="hov" title="Atlanta Obedience Club | DogTrainingUsa">Atlanta Obedience Club</p><p><span style="color: #0b324b; font-weight: 500;">(770) 457-5717</span></p><p>1193 Beaver Ruin Rd Norcross, GA 30093</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2221.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(770) 424-5226</span></p><p>860 Cobb Place Blvd NW Kennesaw, GA 30144</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pawsitive-practice-training-2220.html"><p class="hov" title="Pawsitive Practice Training | DogTrainingUsa">Pawsitive Practice Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 353-2416</span></p><p>5180 Burnt Hickory Rd NW Kennesaw, GA 30152</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/duluth-lawn-equipment-everything-repairs-2219.html"><p class="hov" title="Duluth lawn equipment/everything repairs | DogTrainingUsa">Duluth lawn equipment/everything repairs</p><p><span style="color: #0b324b; font-weight: 500;">(770) 744-8904</span></p><p>3046 Mattison St duluth, GA 30096</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/tier1k9-2218.html"><p class="hov" title="Tier1K9 | DogTrainingUsa">Tier1K9</p><p><span style="color: #0b324b; font-weight: 500;">(770) 891-9808</span></p><p>10250 Cedar Grove Rd Fairburn, GA 30213</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/jo-thors-dog-obedience-academy-2217.html"><p class="hov" title="Jo Thor's Dog Obedience Academy | DogTrainingUsa">Jo Thor's Dog Obedience Academy</p><p><span style="color: #0b324b; font-weight: 500;">(770) 642-4191</span></p><p>4995 Mcpherson Dr NE Roswell, GA 30075</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/south-atlanta-dog-wizard-2216.html"><p class="hov" title="South Atlanta Dog Wizard | DogTrainingUsa">South Atlanta Dog Wizard</p><p><span style="color: #0b324b; font-weight: 500;">(404) 909-8299</span></p><p>1415 Highway 85 N Fayetteville, GA 30214</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/south-atlanta-dog-wizard-2215.html"><p class="hov" title="South Atlanta Dog Wizard | DogTrainingUsa">South Atlanta Dog Wizard</p><p><span style="color: #0b324b; font-weight: 500;">(404) 909-8299</span></p><p>245 Aspen Way Fayetteville, GA 30214</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/butler-creek-animal-hospital-2214.html"><p class="hov" title="Butler Creek Animal Hospital | DogTrainingUsa">Butler Creek Animal Hospital</p><p><span style="color: #0b324b; font-weight: 500;">(770) 529-7277</span></p><p>3180 Acworth Due West Rd NW Kennesaw, GA 30152</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/swanky-paws-2213.html"><p class="hov" title="Swanky Paws | DogTrainingUsa">Swanky Paws</p><p><span style="color: #0b324b; font-weight: 500;">(678) 985-0005</span></p><p>1090 Duluth Hwy Lawrenceville, GA 30043</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/your-pets-pal-pet-sitting-2212.html"><p class="hov" title="Your Pets' Pal Pet Sitting | DogTrainingUsa">Your Pets' Pal Pet Sitting</p><p><span style="color: #0b324b; font-weight: 500;">(770) 905-5083</span></p><p>712 Bankshire Dr Suwanee, GA 30024</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsuites-johns-creek-2211.html"><p class="hov" title="PetSuites Johns Creek | DogTrainingUsa">PetSuites Johns Creek</p><p><span style="color: #0b324b; font-weight: 500;">(470) 621-3935</span></p><p>8030 Mcginnis Ferry Rd Suwanee, GA 30024</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/merrymac-enterprises-2210.html"><p class="hov" title="Merrymac Enterprises | DogTrainingUsa">Merrymac Enterprises</p><p><span style="color: #0b324b; font-weight: 500;">(770) 579-3865</span></p><p>2485 Towne Lake Pkwy Woodstock, GA 30189</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/ak-pits-kennels-2209.html"><p class="hov" title="ak pits kennels | DogTrainingUsa">ak pits kennels</p><p><span style="color: #0b324b; font-weight: 500;">(404) 304-5663</span></p><p>13760 panhandle rd hampton, GA 30228</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-educated-puppy-2208.html"><p class="hov" title="The Educated Puppy | DogTrainingUsa">The Educated Puppy</p><p><span style="color: #0b324b; font-weight: 500;">(770) 475-3049</span></p><p>12195 Highway 92 Woodstock, GA 30188</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/aim-dog-training-2207.html"><p class="hov" title="Aim Dog Training | DogTrainingUsa">Aim Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 354-0675</span></p><p>Old Farm Rd Woodstock, GA 30188</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/off-the-chain-k9-academy-2206.html"><p class="hov" title="Off the Chain K9 Academy | DogTrainingUsa">Off the Chain K9 Academy</p><p><span style="color: #0b324b; font-weight: 500;">(678) 310-0737</span></p><p>1480 Shiloh Rd NW Kennesaw, GA 30144</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/superior-dog-training-2205.html"><p class="hov" title="Superior Dog Training | DogTrainingUsa">Superior Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(678) 458-2230</span></p><p>4073 Monroe Dr NW Kennesaw, GA 30144</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/balanced-dog-training-2204.html"><p class="hov" title="Balanced Dog Training | DogTrainingUsa">Balanced Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 601-9557</span></p><p>2200 Avalon Blvd Alpharetta, GA 30009</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/brave-yankee-k9-2203.html"><p class="hov" title="Brave Yankee K9 | DogTrainingUsa">Brave Yankee K9</p><p><span style="color: #0b324b; font-weight: 500;">(678) 449-0388</span></p><p>4241 Waverly Downs Dr Snellville, GA 30039</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/lost-mountain-dog-training-2202.html"><p class="hov" title="Lost Mountain Dog Training | DogTrainingUsa">Lost Mountain Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 925-6639</span></p><p>5067 Dallas Hwy Powder Springs, GA 30127</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/hyperflite-2201.html"><p class="hov" title="Hyperflite | DogTrainingUsa">Hyperflite</p><p><span style="color: #0b324b; font-weight: 500;">(770) 751-3882</span></p><p>660 Hembree Pkwy Ste 110 Roswell, GA 30076</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/skyhoundz-2200.html"><p class="hov" title="Skyhoundz | DogTrainingUsa">Skyhoundz</p><p><span style="color: #0b324b; font-weight: 500;">(770) 751-3882</span></p><p>660 Hembree Pkwy Roswell, GA 30076</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/uks-treats-2199.html"><p class="hov" title="Uks Treats | DogTrainingUsa">Uks Treats</p><p><span style="color: #0b324b; font-weight: 500;">(678) 473-1665</span></p><p>9700 Medlock Bridge Rd Duluth, GA 30097</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/worldwide-dog-school-2198.html"><p class="hov" title="WorldWide Dog School | DogTrainingUsa">WorldWide Dog School</p><p><span style="color: #0b324b; font-weight: 500;">(770) 875-6631</span></p><p>1085 Irwin Bridge Rd NW Conyers, GA 30012</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pawsitive-practice-training-2197.html"><p class="hov" title="Pawsitive Practice Training | DogTrainingUsa">Pawsitive Practice Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 353-2416</span></p><p>9166 Brumbelow Rd Alpharetta, GA 30022</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/merry-mac-dog-training-2196.html"><p class="hov" title="Merry Mac Dog Training | DogTrainingUsa">Merry Mac Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 579-3865</span></p><p>2550 Sandy Plains Rd Marietta, GA 30066</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dog-school-101-2195.html"><p class="hov" title="Dog School 101 | DogTrainingUsa">Dog School 101</p><p><span style="color: #0b324b; font-weight: 500;">(770) 850-8383</span></p><p>2288 Canton Rd Marietta, GA 30066</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/world-class-k-9-2194.html"><p class="hov" title="World Class K-9 | DogTrainingUsa">World Class K-9</p><p><span style="color: #0b324b; font-weight: 500;">(404) 787-0587</span></p><p>3322 Irwin Bridge Rd NW Conyers, GA 30012</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/paws-parks-2193.html"><p class="hov" title="Paws & Parks | DogTrainingUsa">Paws & Parks</p><p><span style="color: #0b324b; font-weight: 500;">(470) 448-7616</span></p><p>1685 Old Norcross Rd Lawrenceville, GA 30046</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/legacy-dog-training-2192.html"><p class="hov" title="Legacy Dog Training | DogTrainingUsa">Legacy Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(253) 389-8048</span></p><p>1305 Idlewood Ct McDonough, GA 30252</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/true-life-k9-2191.html"><p class="hov" title="True Life K9 | DogTrainingUsa">True Life K9</p><p><span style="color: #0b324b; font-weight: 500;">(678) 877-5460</span></p><p>210 Albemarle Ln Peachtree City, GA 30269</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2190.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(770) 995-2449</span></p><p>875 Lawrenceville Suwanee Rd Lawrenceville, GA 30043</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2189.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(678) 567-0583</span></p><p>4794 Jimmy Lee Smith Pkwy Ste 108 Hiram, GA 30141</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2188.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(678) 352-8138</span></p><p>625 W Crossville Rd Roswell, GA 30075</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2187.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(770) 942-3326</span></p><p>2940 Chapel Hill Rd Douglasville, GA 30135</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/northwood-dog-training-2186.html"><p class="hov" title="Northwood Dog Training | DogTrainingUsa">Northwood Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 760-8092</span></p><p>3200 Peek Rd NE Conyers, GA 30012</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/country-lane-kennels-2185.html"><p class="hov" title="Country Lane Kennels | DogTrainingUsa">Country Lane Kennels</p><p><span style="color: #0b324b; font-weight: 500;">(770) 949-6946</span></p><p>7699 Lambert Rd Winston, GA 30187</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petiquette-academy-2184.html"><p class="hov" title="Petiquette Academy | DogTrainingUsa">Petiquette Academy</p><p><span style="color: #0b324b; font-weight: 500;">(678) 398-9656</span></p><p>4075 Charles Hardy Pkwy Ste 107 Dallas, GA 30157</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/a-dogs-view-training-2183.html"><p class="hov" title="A Dog's View Training | DogTrainingUsa">A Dog's View Training</p><p><span style="color: #0b324b; font-weight: 500;">(888) 709-3857</span></p><p>631 N Main St NW Kennesaw, GA 30144</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/fit-in-personal-training-2182.html"><p class="hov" title="Fit In Personal Training | DogTrainingUsa">Fit In Personal Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 474-2286</span></p><p>4281 Wayside Ct SW Lilburn, GA 30047</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/best-friends-pet-care-2181.html"><p class="hov" title="Best Friends Pet Care | DogTrainingUsa">Best Friends Pet Care</p><p><span style="color: #0b324b; font-weight: 500;">(678) 830-2104</span></p><p>3390 N Berkeley Lake Rd NW Duluth, GA 30096</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/spring-lake-animal-hospital-2180.html"><p class="hov" title="Spring Lake Animal Hospital | DogTrainingUsa">Spring Lake Animal Hospital</p><p><span style="color: #0b324b; font-weight: 500;">(770) 483-7562</span></p><p>1050 Sigman Rd NE Conyers, GA 30012</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/jo-thors-dog-academy-2179.html"><p class="hov" title="Jo-Thor's Dog Academy | DogTrainingUsa">Jo-Thor's Dog Academy</p><p><span style="color: #0b324b; font-weight: 500;">(770) 667-0334</span></p><p>12580 Crabapple Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/powder-springs-animal-clinic-2178.html"><p class="hov" title="Powder Springs Animal Clinic | DogTrainingUsa">Powder Springs Animal Clinic</p><p><span style="color: #0b324b; font-weight: 500;">(770) 943-1811</span></p><p>4082 Macedonia Rd Powder Springs, GA 30127</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-regal-beagle-2177.html"><p class="hov" title="The Regal Beagle | DogTrainingUsa">The Regal Beagle</p><p><span style="color: #0b324b; font-weight: 500;">(678) 363-7700</span></p><p>27 Eastside Trl Dallas, GA 30157</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2176.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(770) 985-0469</span></p><p>2150 Paxton Dr SW Lilburn, GA 30047</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/camp-paradise-pet-resort-2175.html"><p class="hov" title="Camp Paradise Pet Resort | DogTrainingUsa">Camp Paradise Pet Resort</p><p><span style="color: #0b324b; font-weight: 500;">(770) 483-4738</span></p><p>1774 Smyrna Rd SW Conyers, GA 30094</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/off-leash-k9-training-georgia-2174.html"><p class="hov" title="Off Leash K9 Training, Georgia | DogTrainingUsa">Off Leash K9 Training, Georgia</p><p><span style="color: #0b324b; font-weight: 500;">(770) 450-0988</span></p><p>120 Huddleston Rd Peachtree City, GA 30269</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/five-star-dog-resort-2173.html"><p class="hov" title="Five Star Dog Resort | DogTrainingUsa">Five Star Dog Resort</p><p><span style="color: #0b324b; font-weight: 500;">(678) 867-2001</span></p><p>12870 Arnold Mill Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/atlanta-dog-trainer-2172.html"><p class="hov" title="Atlanta Dog Trainer | DogTrainingUsa">Atlanta Dog Trainer</p><p><span style="color: #0b324b; font-weight: 500;">(770) 754-9178</span></p><p>12900 Freemanville Rd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/save-me-from-the-dog-house-2171.html"><p class="hov" title="Save Me From The Dog House | DogTrainingUsa">Save Me From The Dog House</p><p><span style="color: #0b324b; font-weight: 500;">(770) 928-7887</span></p><p>3920 Canton Rd Marietta, GA 30066</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pet-play-place-2170.html"><p class="hov" title="Pet Play Place | DogTrainingUsa">Pet Play Place</p><p><span style="color: #0b324b; font-weight: 500;">(770) 919-8738</span></p><p>2687 Mccollum Pkwy NW Kennesaw, GA 30144</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pet-lodge-pet-resort-2169.html"><p class="hov" title="Pet Lodge Pet Resort | DogTrainingUsa">Pet Lodge Pet Resort</p><p><span style="color: #0b324b; font-weight: 500;">(770) 475-3455</span></p><p>3456 Bethany Bnd Alpharetta, GA 30004</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/clever-canines-in-home-training-2168.html"><p class="hov" title="Clever Canines in Home Training | DogTrainingUsa">Clever Canines in Home Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 667-6758</span></p><p>1709 Pine St SE Marietta, GA 30060</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/animals-deserve-better-inc-paws-for-life-2167.html"><p class="hov" title="Animals Deserve Better, Inc - PAWS FOR LIFE | DogTrainingUsa">Animals Deserve Better, Inc - PAWS FOR LIFE</p><p><span style="color: #0b324b; font-weight: 500;">(770) 402-0297</span></p><p>Inman Park Marietta, GA 30062</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/rosetta-bone-canine-coaching-2166.html"><p class="hov" title="Rosetta Bone Canine Coaching | DogTrainingUsa">Rosetta Bone Canine Coaching</p><p><span style="color: #0b324b; font-weight: 500;">(404) 226-2779</span></p><p>429 Raven Springs Ct Stone Mountain, GA 30087</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/paws-whiskers-claws-feline-hospital-2165.html"><p class="hov" title="Paws Whiskers & Claws Feline Hospital | DogTrainingUsa">Paws Whiskers & Claws Feline Hospital</p><p><span style="color: #0b324b; font-weight: 500;">(770) 579-6013</span></p><p>4719 Lower Roswell Rd Marietta, GA 30068</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/full-contact-k9-2164.html"><p class="hov" title="Full Contact K9 | DogTrainingUsa">Full Contact K9</p><p><span style="color: #0b324b; font-weight: 500;">(678) 235-5959</span></p><p>8920 Eves Rd Unit 767482 Roswell, GA 30076</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/leader-of-the-pack-inc--2163.html"><p class="hov" title="Leader of the Pack, Inc. | DogTrainingUsa">Leader of the Pack, Inc.</p><p><span style="color: #0b324b; font-weight: 500;">(770) 579-0010</span></p><p>1797 Roswell Rd Marietta, GA 30062</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/liefde-chance-2162.html"><p class="hov" title="Liefde-Chance | DogTrainingUsa">Liefde-Chance</p><p><span style="color: #0b324b; font-weight: 500;">(999) 999-9999</span></p><p>Po Box 2083 Lilburn, GA 30048</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/k9-consultants-2161.html"><p class="hov" title="K9 consultants | DogTrainingUsa">K9 consultants</p><p><span style="color: #0b324b; font-weight: 500;">(678) 272-6680</span></p><p>10 windsong ct stockbridge, GA 30281</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/ranger-dog-training-2160.html"><p class="hov" title="Ranger Dog Training | DogTrainingUsa">Ranger Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 309-6730</span></p><p>2674 Kiser Ave Lithia Springs, GA 30122</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/idle-paws-dog-training-2159.html"><p class="hov" title="Idle Paws Dog Training | DogTrainingUsa">Idle Paws Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 355-0540</span></p><p>520 Granite Ridge Pl Sandy Springs, GA 30350</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/train-those-dogs-2158.html"><p class="hov" title="Train Those Dogs | DogTrainingUsa">Train Those Dogs</p><p><span style="color: #0b324b; font-weight: 500;">(337) 315-2546</span></p><p>415 Morgan Falls Rd Apt 2007 Sandy Springs, GA 30350</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/family-dog-training-2157.html"><p class="hov" title="Family Dog Training | DogTrainingUsa">Family Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 317-1957</span></p><p>4880 Lower Roswell Rd Ste 165-141 Marietta, GA 30068</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-dog-spot-2156.html"><p class="hov" title="The Dog Spot | DogTrainingUsa">The Dog Spot</p><p><span style="color: #0b324b; font-weight: 500;">(678) 246-7900</span></p><p>1975 Glenn Club Dr Stone Mountain, GA 30087</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/all-breed-grooming-and-boarding-2155.html"><p class="hov" title="All Breed Grooming And Boarding | DogTrainingUsa">All Breed Grooming And Boarding</p><p><span style="color: #0b324b; font-weight: 500;">(770) 435-2854</span></p><p>2150 Austell Rd SW Marietta, GA 30008</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/lakeview-kennels-2154.html"><p class="hov" title="Lakeview Kennels | DogTrainingUsa">Lakeview Kennels</p><p><span style="color: #0b324b; font-weight: 500;">(770) 993-2224</span></p><p>595 Marietta Hwy Roswell, GA 30075</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bullard-animal-hospital-2153.html"><p class="hov" title="Bullard Animal Hospital | DogTrainingUsa">Bullard Animal Hospital</p><p><span style="color: #0b324b; font-weight: 500;">(770) 941-3668</span></p><p>5700 Austell Powder Springs Rd Austell, GA 30106</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/animals-deserve-better-inc-2152.html"><p class="hov" title="Animals Deserve Better Inc | DogTrainingUsa">Animals Deserve Better Inc</p><p><span style="color: #0b324b; font-weight: 500;">(770) 402-0297</span></p><p>3125 Roswell Rd Ste C Marietta, GA 30062</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pups-to-pooches-llc-2151.html"><p class="hov" title="Pups To Pooches, LLC | DogTrainingUsa">Pups To Pooches, LLC</p><p><span style="color: #0b324b; font-weight: 500;">(678) 642-2282</span></p><p>6213 Willow Run Rd Peachtree Corners, GA 30092</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/best-friend-pet-care-2150.html"><p class="hov" title="Best Friend Pet Care | DogTrainingUsa">Best Friend Pet Care</p><p><span style="color: #0b324b; font-weight: 500;">(678) 825-3887</span></p><p>1087 Johnson Ferry Rd Marietta, GA 30068</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-dog-house-2149.html"><p class="hov" title="The Dog House | DogTrainingUsa">The Dog House</p><p><span style="color: #0b324b; font-weight: 500;">(770) 693-7285</span></p><p>3999 Austell Rd Austell, GA 30106</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/rose-animal-hospital-2148.html"><p class="hov" title="Rose Animal Hospital | DogTrainingUsa">Rose Animal Hospital</p><p><span style="color: #0b324b; font-weight: 500;">(770) 594-9731</span></p><p>362 S Atlanta St Roswell, GA 30075</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/amy-ramos-cumberland-animal-clinic-2147.html"><p class="hov" title="Amy Ramos - Cumberland Animal Clinic | DogTrainingUsa">Amy Ramos - Cumberland Animal Clinic</p><p><span style="color: #0b324b; font-weight: 500;">(770) 433-1414</span></p><p>1860 Spring Rd SE Smyrna, GA 30080</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/happy-tails-training-co-2146.html"><p class="hov" title="Happy Tails Training Co | DogTrainingUsa">Happy Tails Training Co</p><p><span style="color: #0b324b; font-weight: 500;">(404) 775-4883</span></p><p>200 River Vista Dr Unit 405 Sandy Springs, GA 30339</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/top-k9-training-2145.html"><p class="hov" title="Top K9 Training | DogTrainingUsa">Top K9 Training</p><p><span style="color: #0b324b; font-weight: 500;">(678) 827-2281</span></p><p>3980 Riverlook Pkwy SE Marietta, GA 30067</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/interquest-detection-canines-of-ga-2144.html"><p class="hov" title="Interquest Detection Canines of GA | DogTrainingUsa">Interquest Detection Canines of GA</p><p><span style="color: #0b324b; font-weight: 500;">(404) 310-5327</span></p><p>3522 Ashford Dunwoody Rd NE Brookhaven, GA 30319</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dogs-we-trust-training-boarding-2143.html"><p class="hov" title="Dogs We Trust - Training & Boarding | DogTrainingUsa">Dogs We Trust - Training & Boarding</p><p><span style="color: #0b324b; font-weight: 500;">(470) 390-0450</span></p><p>5284 Floyd Rd SW Unit 452 Mableton, GA 30126</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/uber-pet-2142.html"><p class="hov" title="Uber Pet | DogTrainingUsa">Uber Pet</p><p><span style="color: #0b324b; font-weight: 500;">(678) 827-2281</span></p><p>3980 Riverlook Parkway SE #202 Marietta, GA 30067</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dog-school-101-inc--2141.html"><p class="hov" title="Dog School 101, Inc. | DogTrainingUsa">Dog School 101, Inc.</p><p><span style="color: #0b324b; font-weight: 500;">(770) 850-8383</span></p><p>2171 Kingston Ct SE Ste I Marietta, GA 30067</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/happy-paws-pet-camp-2140.html"><p class="hov" title="Happy Paws Pet Camp | DogTrainingUsa">Happy Paws Pet Camp</p><p><span style="color: #0b324b; font-weight: 500;">(770) 435-3647</span></p><p>3990 Atlanta Rd SE Smyrna, GA 30080</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/jabula-dog-academy-2139.html"><p class="hov" title="Jabula Dog Academy | DogTrainingUsa">Jabula Dog Academy</p><p><span style="color: #0b324b; font-weight: 500;">(404) 499-9340</span></p><p>32 N Avondale Rd Avondale Estates, GA 30002</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/atlanta-dog-u-2138.html"><p class="hov" title="Atlanta Dog U | DogTrainingUsa">Atlanta Dog U</p><p><span style="color: #0b324b; font-weight: 500;">(770) 658-9976</span></p><p>4790 Wright Dr SE Smyrna, GA 30082</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/jabula-dog-academy-2137.html"><p class="hov" title="Jabula Dog Academy | DogTrainingUsa">Jabula Dog Academy</p><p><span style="color: #0b324b; font-weight: 500;">(404) 373-6258</span></p><p>138 New St Decatur, GA 30030</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/jabula-dog-academy-2136.html"><p class="hov" title="Jabula Dog Academy | DogTrainingUsa">Jabula Dog Academy</p><p><span style="color: #0b324b; font-weight: 500;">(404) 499-9340</span></p><p>322 Patterson Ave Scottdale, GA 30079</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/visions-k-9-llc-2135.html"><p class="hov" title="Visions K-9, LLC | DogTrainingUsa">Visions K-9, LLC</p><p><span style="color: #0b324b; font-weight: 500;">(404) 484-9319</span></p><p>2676 oldfield way Decatur, GA 30030</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/frogs-to-dogs-2134.html"><p class="hov" title="Frogs to Dogs | DogTrainingUsa">Frogs to Dogs</p><p><span style="color: #0b324b; font-weight: 500;">(404) 735-6237</span></p><p>318 E Howard Ave Decatur, GA 30030</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/paws-a-tive-results-dog-training-2133.html"><p class="hov" title="Paws-a-tive Results Dog Training | DogTrainingUsa">Paws-a-tive Results Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 434-8041</span></p><p>2311 Belmont Dr Decatur, GA 30032</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/at-your-beck-and-bark-2132.html"><p class="hov" title="At Your Beck and Bark | DogTrainingUsa">At Your Beck and Bark</p><p><span style="color: #0b324b; font-weight: 500;">(404) 368-2072</span></p><p>1167 Providence Pl Decatur, GA 30033</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/canine-phd-2131.html"><p class="hov" title="Canine PhD | DogTrainingUsa">Canine PhD</p><p><span style="color: #0b324b; font-weight: 500;">(404) 931-2035</span></p><p>245 Dekalb Industrial Way Decatur, GA 30030</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/pets-playhouse-on-ponce-2130.html"><p class="hov" title="Pets Playhouse On Ponce | DogTrainingUsa">Pets Playhouse On Ponce</p><p><span style="color: #0b324b; font-weight: 500;">(404) 378-1680</span></p><p>2959 E Ponce De Leon Ave Decatur, GA 30030</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/buckhead-dog-walkers-2129.html"><p class="hov" title="Buckhead Dog Walkers | DogTrainingUsa">Buckhead Dog Walkers</p><p><span style="color: #0b324b; font-weight: 500;">(404) 937-6557</span></p><p>W Paces Ferry Rd Atlanta, GA 30327</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/av-dog-training-2128.html"><p class="hov" title="Av Dog Training | DogTrainingUsa">Av Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 988-0562</span></p><p>213 Harbor Pointe Pkwy Atlanta, GA 30350</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/mikisouth-2127.html"><p class="hov" title="MikiSouth | DogTrainingUsa">MikiSouth</p><p><span style="color: #0b324b; font-weight: 500;">(404) 345-1094</span></p><p>5585 Kingsport Dr Atlanta, GA 30342</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/cpt-inc-2126.html"><p class="hov" title="CPT Inc | DogTrainingUsa">CPT Inc</p><p><span style="color: #0b324b; font-weight: 500;">(404) 236-2180</span></p><p>6600 Roswell Rd Atlanta, GA 30328</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/canine-ph-d-dog-training-2125.html"><p class="hov" title="Canine Ph.D. Dog Training | DogTrainingUsa">Canine Ph.D. Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 931-2035</span></p><p>515 name st, ste b, Atlanta GA, 30318 Atlanta, GA 30316</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bark-busters-home-dog-training-2124.html"><p class="hov" title="Bark Busters Home Dog Training | DogTrainingUsa">Bark Busters Home Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 664-1079</span></p><p>1140 Saint Augustine Pl NE Atlanta, GA 30306</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/mass-effectz-bullies-2123.html"><p class="hov" title="Mass Effectz Bullies | DogTrainingUsa">Mass Effectz Bullies</p><p><span style="color: #0b324b; font-weight: 500;">(404) 573-3405</span></p><p>2890 Jones St Atlanta, GA 30344</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/chateau-de-doggy-training-corp-2122.html"><p class="hov" title="Chateau De Doggy Training Corp | DogTrainingUsa">Chateau De Doggy Training Corp</p><p><span style="color: #0b324b; font-weight: 500;">(770) 910-9311</span></p><p>860 Johnson Ferry Rd Atlanta, GA 30342</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/smart-critters-2121.html"><p class="hov" title="Smart Critters | DogTrainingUsa">Smart Critters</p><p><span style="color: #0b324b; font-weight: 500;">(404) 234-0688</span></p><p>17 Global Gateway Connector Atlanta, GA 30337</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/victoria-stilwell-academy-2120.html"><p class="hov" title="Victoria Stilwell Academy | DogTrainingUsa">Victoria Stilwell Academy</p><p><span style="color: #0b324b; font-weight: 500;">(678) 459-5786</span></p><p>535 Woodward Way NW Atlanta, GA 30305</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dog-training-in-your-home-2119.html"><p class="hov" title="Dog Training In Your Home | DogTrainingUsa">Dog Training In Your Home</p><p><span style="color: #0b324b; font-weight: 500;">(678) 698-2068</span></p><p>480 Peachtree Hills Ave NE Atlanta, GA 30305</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/dog-wizard-2118.html"><p class="hov" title="Dog Wizard | DogTrainingUsa">Dog Wizard</p><p><span style="color: #0b324b; font-weight: 500;">(404) 234-2205</span></p><p>1963 Braeburn Cir SE Atlanta, GA 30316</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bad-dogs-good-dogs-2117.html"><p class="hov" title="Bad Dogs Good Dogs | DogTrainingUsa">Bad Dogs Good Dogs</p><p><span style="color: #0b324b; font-weight: 500;">(404) 874-5224</span></p><p>PEACHTREE St NE Atlanta, GA 30309</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/the-dog-wizard-2116.html"><p class="hov" title="The Dog Wizard | DogTrainingUsa">The Dog Wizard</p><p><span style="color: #0b324b; font-weight: 500;">(404) 234-2205</span></p><p>161 South Ave SE Atlanta, GA 30315</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petport-boarding-kennel-2115.html"><p class="hov" title="Petport Boarding Kennel | DogTrainingUsa">Petport Boarding Kennel</p><p><span style="color: #0b324b; font-weight: 500;">(770) 380-3647</span></p><p>3110 Stonewall Tell Rd Atlanta, GA 30349</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/american-dog-training-2114.html"><p class="hov" title="American Dog Training | DogTrainingUsa">American Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(770) 664-1175</span></p><p>3329 David Rd Atlanta, GA 30341</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/moorefield-bob-dog-training-2113.html"><p class="hov" title="Moorefield Bob Dog Training | DogTrainingUsa">Moorefield Bob Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(404) 874-5224</span></p><p>710 Ponce De Leon Ave NE Atlanta, GA 30306</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/petsmart-2112.html"><p class="hov" title="PetSmart | DogTrainingUsa">PetSmart</p><p><span style="color: #0b324b; font-weight: 500;">(404) 352-9746</span></p><p>1801 Howell Mill Rd NW Atlanta, GA 30318</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/canine-ph-d--2111.html"><p class="hov" title="Canine Ph.D. | DogTrainingUsa">Canine Ph.D.</p><p><span style="color: #0b324b; font-weight: 500;">(404) 931-2035</span></p><p>515 Means St NW Atlanta, GA 30318</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/barking-hound-village-inn-2110.html"><p class="hov" title="Barking Hound Village Inn | DogTrainingUsa">Barking Hound Village Inn</p><p><span style="color: #0b324b; font-weight: 500;">(404) 873-4960</span></p><p>777 Lambert Dr NE Atlanta, GA 30324</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/highland-pet-supply-2109.html"><p class="hov" title="Highland Pet Supply | DogTrainingUsa">Highland Pet Supply</p><p><span style="color: #0b324b; font-weight: 500;">(404) 892-5900</span></p><p>1186 N Highland Ave NE Ste G Atlanta, GA 30306</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bark-avenue-pet-resort-2108.html"><p class="hov" title="Bark Avenue Pet Resort | DogTrainingUsa">Bark Avenue Pet Resort</p><p><span style="color: #0b324b; font-weight: 500;">(404) 367-8447</span></p><p>2961 Olympic Industrial Dr SE Atlanta, GA 30339</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/san-pasqual-stock-dog-training-2107.html"><p class="hov" title="San Pasqual Stock Dog Training | DogTrainingUsa">San Pasqual Stock Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(760) 739-8673</span></p><p>15671 Old Milky Way Escondido, CA 92027</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/better-dog-training-2106.html"><p class="hov" title="Better Dog Training | DogTrainingUsa">Better Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(760) 703-6037</span></p><p>4992 35th St San Diego, CA 92116</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/bark-busters-home-dog-training-2105.html"><p class="hov" title="Bark Busters Home Dog Training | DogTrainingUsa">Bark Busters Home Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(858) 692-2453</span></p><p>3539 Granada Ave San Diego, CA 92104</p></a></div><div class="grid-item"><a href="https://dogtrainingusa.click/en/socal-dog-training-2104.html"><p class="hov" title="SoCal Dog Training | DogTrainingUsa">SoCal Dog Training</p><p><span style="color: #0b324b; font-weight: 500;">(904) 814-1939</span></p><p>4028 Florida St San Diego, CA 92104</p></a></div>
+ </div>
 </div>
-
-
-<div class="ads">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8633098244639104"
-     crossorigin="anonymous"></script>
-<!-- usahospitals -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8633098244639104"
-     data-ad-slot="9151738694"
-     data-ad-format="auto"
-     data-full-width-responsive="true"
-     loading="lazy"></ins>
-     
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-</div>
-</div>
-
+<div class="btn"><a href="https://dogtrainingusa.click/find-dog-training-services-near-me-1.html"><button>Find More Services</button></a></div>
 <footer class="footer">
   <div class="container">
     <nav class="footer-nav">
-      <a href="/">Home</a> |
-      <a href="/privacy-policy">Privacy Policy</a> |
-      <a href="/terms-and-conditions">Terms and Conditions</a>
+      <a href="https://dogtrainingusa.click/">Home</a> |
+      <a href="https://dogtrainingusa.click/privacy-policy">Privacy Policy</a> |
+      <a href="https://dogtrainingusa.click/terms-and-conditions">Terms and Conditions</a>
     <p>&copy; 2024 DogTrainingUSA. All rights reserved.</p>
     </nav>
   </div>
 </footer>
-<script type="text/javascript">
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth' // Enable smooth scrolling
-  });
-}
-
-window.onscroll = function() {
-  scrollFunction();
-};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("scrollToTopBtn").style.display = "block";
-  } else {
-    document.getElementById("scrollToTopBtn").style.display = "none";
-  }
-}
-
-
-</script>
+<script type="text/javascript">function scrollToTop() {window.scrollTo({top: 0,behavior: 'smooth' });}window.onscroll = function() {scrollFunction();};function scrollFunction() {if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {document.getElementById("scrollToTopBtn").style.display = "block";} else {document.getElementById("scrollToTopBtn").style.display = "none";}}</script>
 </body>
 </html>
